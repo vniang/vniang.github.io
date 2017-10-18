@@ -3,7 +3,7 @@
   display: block;
 }
 .support_other img {
-  height: 100px;
+  width: 100%;
 }
 .support {
   margin-top: 20px;
