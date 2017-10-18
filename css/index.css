@@ -3,14 +3,14 @@
   display: block;
 }
 .support_other img {
-  width: 100%;
+  width: 80%;
 }
 .support {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .support_other {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 .icon-bar {
   background-color: #563d7c;

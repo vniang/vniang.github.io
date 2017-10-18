@@ -1,5 +1,5 @@
 $(function() {
-  Promise.all([getData('/db/pause.json'), getMankaTemp('/temple/mankas.html')]).then(function (res) {
+  Promise.all([getData('/db/pause.json'), getData('/temple/mankas.html')]).then(function (res) {
     var data = res[0];
     var temp = res[1];
     var html = doT.template(temp)(data);
