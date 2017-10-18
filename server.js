@@ -6,6 +6,7 @@ var bodyParser = require('body-parser');
 var debug = require('debug')('expdemo:server');
 var http = require('http');
 var express = require('express');
+var open = require('open');
 
 var app = express();
 
@@ -44,6 +45,7 @@ var server = http.createServer(app);
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
+open('http://localhost:' + port);
 
 
 function normalizePort(val) {

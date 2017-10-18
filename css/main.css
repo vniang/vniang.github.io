@@ -1,42 +1,11 @@
-html, body {
-  margin: 0;
-  padding: 0;
+.Width100 {
+  width: 100%;
 }
-* {
-  font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+.TxtCenter {
+  text-align: center;
 }
-.clearfix:after{
-  content:".";
-  display:block;
-  height:0;
-  clear:both;
-  visibility:hidden
-}
-a{
-  color:#2d374b;
-  text-decoration:none;
-} 
-
-
-.main {
-  width: 1020px;
-  margin: 0 auto;
-}
-.manka_container {
-  width:968px;
-}
-.manka_box {
-  float: left;
-  margin: 12px;
-  cursor: pointer;
-}
-.manka_pic img {
-  border: 1px solid #bdbdbd;
-  border-radius: 4px;
-  width:180px;
-  height: 240px;
-  box-sizing: border-box;
-}
-.manka_title {
-  font-size: 18px;
+.item-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
 }

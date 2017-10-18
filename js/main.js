@@ -1,6 +1,6 @@
 function getData() {
   return new Promise(function(resolve) {
-    $.get('/db/manka.json', function(data) {
+    $.get('/db/home.json', function(data) {
       resolve(data);
     });
   })
@@ -12,10 +12,13 @@ function getMankaTemp() {
     })
   })
 }
-Promise.all([getData(), getMankaTemp()]).then(function(res) {
-  var data = res[0];
-  var temp = res[1];
-  var html = doT.template(temp)(data);
-  var container = document.querySelector('.manka_container');
-  container.innerHTML = html;
-})
+$(function() {
+  Promise.all([getData(), getMankaTemp()]).then(function (res) {
+    var data = res[0];
+    var temp = res[1];
+    var html = doT.template(temp)(data);
+    var container = document.querySelector('.manka_container');
+    container.innerHTML = html;
+  })
+});
+

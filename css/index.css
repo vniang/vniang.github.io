@@ -1,0 +1,21 @@
+.manyuan img {
+  margin: 0 auto;
+  display: block;
+}
+.support_other img {
+  height: 100px;
+}
+.support {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.support_other {
+  margin-bottom: 100px;
+}
+.icon-bar {
+  background-color: #563d7c;
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
