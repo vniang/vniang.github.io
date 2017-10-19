@@ -23,7 +23,14 @@ address是漫画地址
 ![](./images/doc/5.png)  
 然后在下面第一输入随便填点信息，做为这次更改的记录点击绿色按钮就成功了！一般需要等待5分钟左右才能见到刷新效果。
 
+2. 上传图片  
+在动漫之家右键封面点击新标签打开图片，然后右键下载图片
+![](./images/doc/6.png)  
+点进images文件夹
 
+![](./images/doc/7.png)  
+点击右上角Upload files
 
-
-
+![](./images/doc/8.png)  
+点击上传或拖进去图片，上传完成后随便输点什么点击绿色按钮  
+假如传的图片是`overload.png`则db/xxx.json的image里面填写`image: "images/overload.png",`
