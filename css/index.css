@@ -5,6 +5,10 @@
 .support_other img {
   width: 80%;
 }
+.navbar-nav li:hover a {
+  color: #fff !important;
+  background-color: rgba(0,0,0,.08);
+}
 .support {
   margin-top: 20px;
   margin-bottom: 50px;
@@ -27,6 +31,11 @@
 }
 .manka_box {
   padding-bottom: 10px;
+  text-align: center;
+}
+.manka {
+  display: inline-block;
+  text-align: left;
 }
 .manka_container p {
   overflow : hidden;
@@ -45,6 +54,9 @@
   font-size: 15px;
 }
 @media (max-width: 767px) {
+  .caption {
+    width: 165px;
+  }
   .manka_img {
     width: 165px;
     height: 220px;
@@ -52,6 +64,9 @@
   }
 }
 @media (min-width: 768px) and (max-width: 969px) { 
+  .caption {
+    width: 220px;
+  }
   .manka_img {
     width: 220px;
     height: 293px;
@@ -59,6 +74,9 @@
   }
 }
 @media (min-width: 970px) and (max-width: 1199px) { 
+  .caption {
+    width: 212px;
+  }
   .manka_img {
     width: 212px;
     height: 282px;
@@ -66,6 +84,9 @@
   }
 }
 @media (min-width: 1200px) { 
+  .caption {
+    width: 165px;
+  }
   .manka_img {
     width: 165px;
     height: 220px;
