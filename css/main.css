@@ -1,6 +1,9 @@
 .Width100 {
   width: 100%;
 }
+p {
+  margin: 0;
+}
 .TxtCenter {
   text-align: center;
 }
@@ -17,6 +20,8 @@
   right: 0;
   z-index: -1;
   background: #efefef;
+  -webkit-filter: blur(5px) saturate(1.5);
+  filter: blur(5px) saturate(1.5);
 }
 header.navbar {
   background: #1e88e5;

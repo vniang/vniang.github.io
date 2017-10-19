@@ -9,6 +9,9 @@
   margin-top: 20px;
   margin-bottom: 50px;
 }
+.support .panel-body {
+  font-size: 16px;
+}
 .support_other {
   margin-bottom: 60px;
 }
@@ -18,4 +21,54 @@
   width: 22px;
   height: 2px;
   border-radius: 1px;
+}
+.manka_container {
+  font-size: 1.5rem;
+}
+.manka_box {
+  padding-bottom: 10px;
+}
+.manka_container p {
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: 3em;
+}
+.panel-heading {
+  background: #1e88e5 !important;
+  color: #fff !important;
+  opacity: 0.8
+}
+.panel {
+  font-size: 15px;
+}
+@media (max-width: 767px) {
+  .manka_img {
+    width: 165px;
+    height: 220px;
+    overflow: hidden;
+  }
+}
+@media (min-width: 768px) and (max-width: 969px) { 
+  .manka_img {
+    width: 220px;
+    height: 293px;
+    overflow: hidden;
+  }
+}
+@media (min-width: 970px) and (max-width: 1199px) { 
+  .manka_img {
+    width: 212px;
+    height: 282px;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1200px) { 
+  .manka_img {
+    width: 165px;
+    height: 220px;
+    overflow: hidden;
+  }
 }
