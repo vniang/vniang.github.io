@@ -5,11 +5,3 @@ function getData(url) {
     });
   })
 }
-
-// 绘制背景
-getData('/temple/bg.html').then((html) => {
-  var bg = document.createElement('DIV');
-  bg.className = 'bg';
-  bg.innerHTML = doT.template(html)();
-  document.body.appendChild(bg);
-})

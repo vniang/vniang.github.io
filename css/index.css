@@ -44,6 +44,8 @@
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   height: 3em;
+  color: #1e88e5;
+  padding-top: 4px;
 }
 .panel-heading {
   background: #1e88e5 !important;
