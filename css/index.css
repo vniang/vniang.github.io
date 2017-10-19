@@ -61,6 +61,7 @@
     width: 165px;
     height: 220px;
     overflow: hidden;
+    border-radius: 4px;
   }
 }
 @media (min-width: 768px) and (max-width: 969px) { 
